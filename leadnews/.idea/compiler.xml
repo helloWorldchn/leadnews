@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="freemarker-demo" />
+        <module name="leadnews-common" />
+        <module name="minio-demo" />
+        <module name="leadnews-seata" />
+        <module name="leadnews-search" />
+        <module name="leadnews-model" />
+        <module name="kafka-demo" />
+        <module name="leadnews-article" />
+        <module name="leadnews-app-gateway" />
+        <module name="xxljob-demo" />
+        <module name="leadnews-user" />
+        <module name="file-starter" />
+        <module name="leadnews-admin" />
+        <module name="leadnews-schedule" />
+        <module name="es-init" />
+        <module name="leadnews-feign-api" />
+        <module name="leadnews-behavior" />
+        <module name="leadnews-utils" />
+        <module name="leadnews-wemedia-gateway" />
+        <module name="tess4j_demo" />
+        <module name="mongo-demo" />
+        <module name="leadnews-admin-gateway" />
+        <module name="leadnews-wemedia" />
+        <module name="leadnews-comment" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es-init" options="-parameters" />
+      <module name="file-starter" options="-parameters" />
+      <module name="freemarker-demo" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
+      <module name="leadnews" options="" />
+      <module name="leadnews-admin" options="-parameters" />
+      <module name="leadnews-admin-gateway" options="-parameters" />
+      <module name="leadnews-app-gateway" options="-parameters" />
+      <module name="leadnews-article" options="-parameters" />
+      <module name="leadnews-basic" options="" />
+      <module name="leadnews-behavior" options="-parameters" />
+      <module name="leadnews-comment" options="-parameters" />
+      <module name="leadnews-common" options="-parameters" />
+      <module name="leadnews-feign-api" options="-parameters" />
+      <module name="leadnews-gateway" options="" />
+      <module name="leadnews-model" options="-parameters" />
+      <module name="leadnews-schedule" options="-parameters" />
+      <module name="leadnews-search" options="-parameters" />
+      <module name="leadnews-seata" options="-parameters" />
+      <module name="leadnews-service" options="" />
+      <module name="leadnews-test" options="" />
+      <module name="leadnews-user" options="-parameters" />
+      <module name="leadnews-utils" options="-parameters" />
+      <module name="leadnews-wemedia" options="-parameters" />
+      <module name="leadnews-wemedia-gateway" options="-parameters" />
+      <module name="minio-demo" options="-parameters" />
+      <module name="mongo-demo" options="-parameters" />
+      <module name="tess4j_demo" options="-parameters" />
+      <module name="xxljob-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

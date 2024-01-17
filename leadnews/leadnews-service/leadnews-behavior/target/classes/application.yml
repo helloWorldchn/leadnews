@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: 192.168.153.81
+    password: leadnews
+    port: 6379
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  kafka:
+    bootstrap-servers: 192.168.153.81:9092
+    producer:
+      retries: 10
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+kafka:
+  hosts: 192.168.153.81:9092
+  group: ${spring.application.name}
