@@ -26,8 +26,8 @@ minio:
   endpoint: http://192.168.153.81:9000
   readPath: http://192.168.153.81:9000
 aliyun:
-  accessKeyId: LTAI5tEEJmuaJ45oMVSNBPT6
-  secret: sPx5p04J6st18wUeMzRXtMp2MLmT8a
+  accessKeyId: youraccessKeyId
+  secret: yoursecret
   #aliyun.scenes=porn,terrorism,ad,qrcode,live,logo
   scenes: terrorism
 feign:
