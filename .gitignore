@@ -23,11 +23,23 @@
 hs_err_pid*
 replay_pid*
 
-.DS_Store
+# IntelliJ project files
+
 .idea
+
 *.iml
-.idea
-logs
+
 out
+
 gen
-target
+
+/.apt_generated/
+/.classpath
+/.factorypath
+/.project
+/.settings/
+/.springBeans
+/target/
+/user-profile-analysis.iml
+/.idea
+.DS_Store
